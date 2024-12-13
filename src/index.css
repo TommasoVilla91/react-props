@@ -1,0 +1,34 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+/* LAYOUT */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    width: 33rem;
+    min-height: 35rem;
+    border-radius: 1.3rem;
+    overflow: hidden;
+}
