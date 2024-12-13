@@ -6,13 +6,13 @@ function AppMain() {
 
     const printPosts = () => {
         return posts.map((curPost) => (
+            curPost.published && 
             <div className="col" key={curPost.id}>
                 <CardElement 
                     image={curPost.image}
                     title={curPost.title}
                     content={curPost.content}
                     tags={curPost.tags}
-                    published={curPost.published}
                 />
             </div>
         ));
@@ -23,12 +23,12 @@ function AppMain() {
             <main className={style.main}>
                 <div className="container">
                     <div className="row">
-                        {printPosts()}                        
+                        {printPosts()}
                     </div>
                 </div>
             </main>        
         </>
-    )
-}
+    );
+};
 
 export default AppMain;

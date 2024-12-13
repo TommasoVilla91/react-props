@@ -3,6 +3,14 @@ import style from "./CardElement.module.css";
 
 function CardElement(props) {
 
+    const tags = props.tags;
+
+    const printTags = () => {
+        return tags.map((tag, index) => (
+        <li className={`${style.tagElem} ${tag}`} key={index}>{tag}</li>
+        ));
+    };
+
     return (
         <>
             <div className={style.card}>
@@ -16,14 +24,14 @@ function CardElement(props) {
                     <p className={style.content}>
                         {props.content}
                     </p>
-                    <p className={style.tags}>
-                        {props.tags.join(', ')}
-                    </p>
+                    <ul className={style.tags}>
+                       {printTags()} 
+                    </ul>                    
                     <InfoButton />
                 </div>                
             </div>
         </>
-    )
-}
+    );
+};
 
 export default CardElement;

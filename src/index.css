@@ -33,3 +33,23 @@ body {
     border-radius: 1.3rem;
     overflow: hidden;
 }
+
+ul {
+    list-style: none;
+}
+
+.html {
+    color: blue;
+}
+
+.css {
+    color: orange;
+}
+
+.js {
+    color: red;
+}
+
+.php {
+    color: purple
+}
