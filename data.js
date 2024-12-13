@@ -2,7 +2,7 @@ const posts = [
     {
       id: 1,
       title: "Titolo del Post",
-      image: 'ciccio',
+      image: 'https://picsum.photos/id/18/2500/1667',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html", "css"],
@@ -11,7 +11,7 @@ const posts = [
     {
       id: 2,
       title: "Titolo del Post",
-      image: 'ciccio',
+      image: 'https://picsum.photos/id/12/2500/1667',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "css"],
@@ -20,7 +20,7 @@ const posts = [
     {
       id: 3,
       title: "Titolo del Post",
-      image: 'ciccio',
+      image: 'https://picsum.photos/id/21/3008/2008',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "php"],
@@ -29,7 +29,7 @@ const posts = [
     {
       id: 4,
       title: "Titolo del Post",
-      image: 'ciccioimage3.jpg',
+      image: 'https://placehold.co/600x400?font=roboto',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html"],

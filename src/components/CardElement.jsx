@@ -15,7 +15,7 @@ function CardElement(props) {
         <>
             <div className={style.card}>
                 <div className={style.image}>
-                    {/* <img src={props.image}/> */}
+                    {props.image ? <img src={props.image}/> : 'Immagine non trovata'}
                 </div>
                 <div className={style.text}>
                     <h3 className={style.title}>
