@@ -3,6 +3,17 @@ import posts from "../../data";
 import style from "./AppMain.module.css";
 
 function AppMain() {
+      
+    const getSingleTags = () => {
+        const tags = [];
+        posts.forEach(curPost => {
+            curPost.tags.forEach(curTag => {
+                if (!tags.includes(curTag)) {
+                tags.push(curTag);
+                };
+            });      
+        });
+    };
 
     const printPosts = () => {
         return posts.map((curPost) => (

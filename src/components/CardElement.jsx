@@ -15,7 +15,7 @@ function CardElement(props) {
         <>
             <div className={style.card}>
                 <div className={style.image}>
-                    {props.image ? <img src={props.image}/> : 'Immagine non trovata'}
+                    {props.image ? <img src={props.image}/> : `https://placehold.co/600x400`}
                 </div>
                 <div className={style.text}>
                     <h3 className={style.title}>
